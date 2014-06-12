@@ -1,0 +1,14 @@
+{
+    "parts": [
+        {
+            "name": "ep_block_userchanges",
+            "client_hooks": {
+              "postAceInit": "ep_block_userchanges/static/js/index"
+            },
+            "hooks": {
+                "handleMessage" : "ep_block_userchanges/index",
+                "eejsBlock_styles": "ep_block_userchanges/index"
+            }
+        }
+    ]
+}

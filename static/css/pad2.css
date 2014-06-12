@@ -1,0 +1,7 @@
+#myusernameform input.editable {
+  border: 0 !important;
+}
+#myuser .myusernameedithoverable:hover {
+  background: transparent !important;
+  color: #000 !important;
+}
